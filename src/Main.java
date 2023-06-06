@@ -2,16 +2,23 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        int number=2;
+        System.out.println(number);
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
+        int value1= 9/2;
+        System.out.println("value1="+value1);
+
+        int max_range=Integer.MAX_VALUE;
+        int min_range=Integer.MIN_VALUE;
+
+        System.out.println(max_range);
+        System.out.println(min_range);
+
+        int sum1=max_range+1;
+        int sum2=min_range-1;
+
+        System.out.println(sum1); // Overflow occurs
+        System.out.println(sum2); // Underflow occurs
         }
     }
-}
